@@ -1,6 +1,8 @@
 import React from 'react';
-import HomeScreen from './HomeScreen';
+import NotesScreen from './NotesScreen';
 
-export default function App() {
-  return <HomeScreen />;
-}
+const App = () => {
+  return <NotesScreen />;
+};
+
+export default App;
