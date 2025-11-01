@@ -1,18 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import HomeScreen from './HomeScreen';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Hello, Atlas Copilot Demo!</Text>
-    </View>
-  );
+  return <HomeScreen />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-});
